@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0054d4f7-2856-45bc-a072-5a7a501cf3e3")
+	(paper "A4")
+	(title_block
+		(title "ESP32 Flight Computer")
+		(date "2026-03-08")
+		(rev "v1.0")
+		(comment 1 "CANSAT STECI Competition 2026")
+		(comment 4 "Author: Fawaaz Kamali Siddiqui")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
