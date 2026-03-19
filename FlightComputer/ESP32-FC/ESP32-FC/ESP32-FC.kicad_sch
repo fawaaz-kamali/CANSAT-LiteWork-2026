@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 Flight Computer")
-		(date "2026-03-09")
+		(date "2026-03-19")
 		(rev "v1.0")
 		(comment 1 "CANSAT STECI Competition 2026")
 		(comment 2 "Team 'Lite Work")
@@ -4225,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.3152 83.82 0)
 			(effects
 				(font
@@ -4295,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 259.3848 63.5 0)
 			(effects
 				(font
@@ -4365,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 265.1252 130.81 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 144.4752 54.61 0)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 55.118 116.84 90)
 			(effects
 				(font
@@ -4960,7 +4960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 271.4752 63.5 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 124.1552 83.82 0)
 			(effects
 				(font
@@ -5297,7 +5297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.972 87.63 90)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 52.07 53.34 0)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 69.85 47.498 90)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.452 116.84 90)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA14_2.5X3X0.76_IVS"
+		(property "Footprint" "ICM-42670-L:LGA14_2.5X3X0.76_IVS-L"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -6617,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.51 114.808 90)
 			(effects
 				(font
@@ -6750,7 +6750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.51 112.268 90)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 69.85 44.958 90)
 			(effects
 				(font
@@ -6951,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 108.9152 0)
 			(effects
 				(font
