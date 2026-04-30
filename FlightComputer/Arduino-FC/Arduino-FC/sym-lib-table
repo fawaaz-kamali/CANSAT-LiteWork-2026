@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS61236P")(type "KiCad")(uri "${KIPRJMOD}/TPS61236P/KiCADv6/2026-04-30_15-19-35.kicad_sym")(options "")(descr ""))
+)
