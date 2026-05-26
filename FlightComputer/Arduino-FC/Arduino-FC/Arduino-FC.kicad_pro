@@ -190,7 +190,8 @@
         0.0,
         0.1,
         0.2,
-        0.4
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -663,7 +664,7 @@
   "sheets": [
     [
       "979d3eec-a24a-4073-bdb5-1e3cad04034a",
-      "Arduino-FC"
+      "Root"
     ]
   ],
   "text_variables": {},

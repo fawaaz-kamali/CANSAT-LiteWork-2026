@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Flight Computer")
-		(date "2026-04-30")
+		(date "2026-05-26")
 		(rev "v1.0")
 		(company "Team 'Lite Work: CANSAT STEC Initiative")
 		(comment 4 "Author: Fawaaz Kamali Siddiqui, Mohammed Alwattar")
@@ -3583,6 +3583,12 @@
 		(uuid "37e811d5-a64e-4d7b-b95e-8351c7d65dd5")
 	)
 	(junction
+		(at 153.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b43cea1-6a2c-4a2f-9a71-ff65be1a839d")
+	)
+	(junction
 		(at 62.23 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3613,12 +3619,6 @@
 		(uuid "a99b00f6-4410-4e1f-a8df-6c3699d75c53")
 	)
 	(junction
-		(at 148.59 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac898a64-5719-4475-b1cb-774cbc0b5aee")
-	)
-	(junction
 		(at 82.55 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,6 +3635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5516182-552e-4548-80bf-46dce2325e38")
+	)
+	(junction
+		(at 176.53 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e1b9aa-adec-40c1-84f9-13f7973c5663")
 	)
 	(junction
 		(at 153.67 36.83)
@@ -3693,10 +3699,6 @@
 		(uuid "7079bb9c-81b9-4ffd-8ca2-ffedddccc722")
 	)
 	(no_connect
-		(at 151.13 90.17)
-		(uuid "912fd08a-3779-473f-a782-d4020ccacbb7")
-	)
-	(no_connect
 		(at 125.73 110.49)
 		(uuid "9db73276-b2ec-46be-9db1-808ec9701f3a")
 	)
@@ -3707,10 +3709,6 @@
 	(no_connect
 		(at 151.13 105.41)
 		(uuid "b702139c-aadf-41e2-8dd4-1db0bfa82bab")
-	)
-	(no_connect
-		(at 151.13 107.95)
-		(uuid "c5e4c435-1b31-4c4b-8ae1-d16870ce320b")
 	)
 	(no_connect
 		(at 43.18 149.86)
@@ -3727,6 +3725,10 @@
 	(no_connect
 		(at 125.73 90.17)
 		(uuid "da6c92c4-1ba6-4cb0-ad94-9a55205c1bfa")
+	)
+	(no_connect
+		(at 125.73 107.95)
+		(uuid "dd3324a9-e683-4fb8-9eea-9a979526ff00")
 	)
 	(no_connect
 		(at 151.13 95.25)
@@ -3839,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "260866bb-d4b2-4749-8d9f-c2a21e36c420")
+	)
+	(wire
+		(pts
+			(xy 176.53 25.4) (xy 176.53 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288d8755-add1-45a2-91f7-630a9f179994")
 	)
 	(wire
 		(pts
@@ -4022,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 148.59 74.93)
+			(xy 143.51 74.93) (xy 153.67 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4059,6 +4071,16 @@
 			(type default)
 		)
 		(uuid "56e267c8-466c-42d9-9e15-9c89567390a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bd9ceb-e9d9-4ea6-b49f-c6f233a6fb5d")
 	)
 	(wire
 		(pts
@@ -4142,16 +4164,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 154.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73972bf9-3885-430e-8107-a491d383dc56")
-	)
-	(wire
-		(pts
 			(xy 66.04 38.1) (xy 71.12 38.1)
 		)
 		(stroke
@@ -4229,6 +4241,16 @@
 			(type default)
 		)
 		(uuid "7d29efd9-b398-4ebd-8329-5e7d8dad367a")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d38658d-b440-4c71-a269-df5c881d1982")
 	)
 	(wire
 		(pts
@@ -4372,16 +4394,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 107.95) (xy 125.73 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7ed462-a96b-4cb3-a1a0-5db4b2366669")
-	)
-	(wire
-		(pts
 			(xy 82.55 36.83) (xy 82.55 38.1)
 		)
 		(stroke
@@ -4482,6 +4494,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b324b9bf-4fc1-4f28-95cd-07aed82d7fbf")
+	)
+	(wire
+		(pts
 			(xy 151.13 113.03) (xy 172.72 113.03)
 		)
 		(stroke
@@ -4569,6 +4591,16 @@
 			(type default)
 		)
 		(uuid "bccfaad8-e97c-42e9-bcb1-da2eb06c8d98")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd25c6cb-a579-4ddc-a6f9-dca4de8d1084")
 	)
 	(wire
 		(pts
@@ -4792,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 148.59 71.12)
+			(xy 153.67 74.93) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4991,12 +5023,12 @@
 		(uuid "4c861dfb-c8fb-4e75-b976-fd7f3b1301ad")
 	)
 	(label "SERVO"
-		(at 115.57 107.95 0)
+		(at 160.02 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5879303c-a087-4058-884b-b131385968a5")
 	)
@@ -5311,6 +5343,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "065d73b0-58cd-404d-92b6-c671843e6f5b")
+		(property "Reference" "#PWR022"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eedf3398-4aa0-49ca-9fc1-b7b8050f5b1d")
+		)
+		(instances
+			(project "Arduino-FC"
+				(path "/979d3eec-a24a-4073-bdb5-1e3cad04034a"
+					(reference "#PWR022")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5741,7 +5839,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 71.12 0)
+		(at 153.67 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5750,7 +5848,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6e62c7-3dc0-4484-9e72-988583760342")
 		(property "Reference" "#PWR011"
-			(at 148.59 74.93 0)
+			(at 153.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5857,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 148.59 66.04 0)
+			(at 153.67 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 71.12 0)
+			(at 153.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 71.12 0)
+			(at 153.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 71.12 0)
+			(at 153.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
