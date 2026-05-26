@@ -3,5 +3,4 @@
   (lib (name "TPSM863252RDXR")(type "KiCad")(uri "${KIPRJMOD}/TPSM863252RDXR/footprints.pretty")(options "")(descr ""))
   (lib (name "nRF24L01")(type "KiCad")(uri "${KIPRJMOD}/nRF24L01/footprints.pretty")(options "")(descr ""))
   (lib (name "SS34")(type "KiCad")(uri "${KIPRJMOD}/SS34/footprints.pretty")(options "")(descr ""))
-  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Logo/footprints.pretty")(options "")(descr ""))
 )

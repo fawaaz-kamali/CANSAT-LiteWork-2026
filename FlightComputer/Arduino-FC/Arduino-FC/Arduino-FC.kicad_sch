@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Flight Computer")
-		(date "2026-05-26")
+		(date "2026-04-30")
 		(rev "v1.0")
 		(company "Team 'Lite Work: CANSAT STEC Initiative")
 		(comment 4 "Author: Fawaaz Kamali Siddiqui, Mohammed Alwattar")
@@ -3571,12 +3571,6 @@
 		(uuid "1f707cfd-04e0-487c-8fab-f39ffcae8a01")
 	)
 	(junction
-		(at 176.53 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "318bf633-b840-49ad-bd65-fe8ffa54f6cc")
-	)
-	(junction
 		(at 138.43 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3619,6 +3613,12 @@
 		(uuid "a99b00f6-4410-4e1f-a8df-6c3699d75c53")
 	)
 	(junction
+		(at 148.59 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac898a64-5719-4475-b1cb-774cbc0b5aee")
+	)
+	(junction
 		(at 82.55 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3647,12 +3647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea7d6f18-5a3a-4cb9-97b3-bb89f3e72ef7")
-	)
-	(junction
-		(at 153.67 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa3ef0ac-a221-49b1-9129-e732fef2322f")
 	)
 	(no_connect
 		(at 227.33 104.14)
@@ -3699,6 +3693,10 @@
 		(uuid "7079bb9c-81b9-4ffd-8ca2-ffedddccc722")
 	)
 	(no_connect
+		(at 151.13 90.17)
+		(uuid "912fd08a-3779-473f-a782-d4020ccacbb7")
+	)
+	(no_connect
 		(at 125.73 110.49)
 		(uuid "9db73276-b2ec-46be-9db1-808ec9701f3a")
 	)
@@ -3741,16 +3739,6 @@
 	(no_connect
 		(at 227.33 106.68)
 		(uuid "f42b1193-fbd4-40b2-8c88-9ec464cef801")
-	)
-	(wire
-		(pts
-			(xy 153.67 74.93) (xy 154.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008784ea-4661-4df6-8811-de025bde54d5")
 	)
 	(wire
 		(pts
@@ -4034,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 153.67 74.93)
+			(xy 143.51 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4151,6 +4139,16 @@
 			(type default)
 		)
 		(uuid "703ea5f8-c6b3-42dc-9e3c-71a83f1ec5bc")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73972bf9-3885-430e-8107-a491d383dc56")
 	)
 	(wire
 		(pts
@@ -4474,16 +4472,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 22.86) (xy 176.53 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03560fc-fc2b-4b65-bebe-d62a6d63da59")
-	)
-	(wire
-		(pts
 			(xy 217.17 46.99) (xy 227.33 46.99)
 		)
 		(stroke
@@ -4541,16 +4529,6 @@
 			(type default)
 		)
 		(uuid "b8b6d3a0-b491-4b23-8b35-2424c81747f3")
-	)
-	(wire
-		(pts
-			(xy 151.13 90.17) (xy 153.67 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ea3df2-655c-4e18-bb79-ca20f56726e6")
 	)
 	(wire
 		(pts
@@ -4684,16 +4662,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb67df8-fed5-4bf0-a2fd-19b0599108e3")
-	)
-	(wire
-		(pts
 			(xy 217.17 54.61) (xy 227.33 54.61)
 		)
 		(stroke
@@ -4824,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 153.67 71.12)
+			(xy 148.59 74.93) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +5741,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 153.67 71.12 0)
+		(at 148.59 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5782,7 +5750,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6e62c7-3dc0-4484-9e72-988583760342")
 		(property "Reference" "#PWR011"
-			(at 153.67 74.93 0)
+			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5759,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 153.67 66.04 0)
+			(at 148.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 71.12 0)
+			(at 148.59 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 71.12 0)
+			(at 148.59 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 71.12 0)
+			(at 148.59 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,72 +5867,6 @@
 			(project "Arduino-FC"
 				(path "/979d3eec-a24a-4073-bdb5-1e3cad04034a"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 176.53 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21efbfcf-0964-40ce-8563-b70a9bcaf268")
-		(property "Reference" "#PWR022"
-			(at 176.53 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 176.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca6c898c-c082-4d15-9494-a6fa020ec8fa")
-		)
-		(instances
-			(project "Arduino-FC"
-				(path "/979d3eec-a24a-4073-bdb5-1e3cad04034a"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
