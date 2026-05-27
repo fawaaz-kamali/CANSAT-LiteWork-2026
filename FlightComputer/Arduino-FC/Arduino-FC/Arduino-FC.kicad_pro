@@ -92,7 +92,7 @@
           ""
         ],
         [
-          "silk_overlap|184595000|93980000|5d0552ca-c34e-4f19-a12e-ff912b212813|fa36896c-ed79-41ff-92c0-a6b408d78a7f",
+          "silk_overlap|184595000|76435000|5d0552ca-c34e-4f19-a12e-ff912b212813|fa36896c-ed79-41ff-92c0-a6b408d78a7f",
           ""
         ],
         [
@@ -206,7 +206,7 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
